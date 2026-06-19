@@ -1,0 +1,11 @@
+function greetUser() {
+    let name = "Suhani";
+    let message = "Welcome to Full Stack Development, " + name + "!";
+    document.getElementById("output").innerHTML = message;
+}
+
+function showTime() {
+    let currentTime = new Date().toLocaleTimeString();
+    document.getElementById("time").innerHTML =
+        "Current Time: " + currentTime;
+}
